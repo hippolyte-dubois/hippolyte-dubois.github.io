@@ -1,4 +1,4 @@
-var arr = "$ATAN&MEME$".split('');
+var arr = "$MEME".split('');
 var n = 100;
 var t = 0;
 var rate = 500;
@@ -11,7 +11,7 @@ function display(){
             s = s.concat(arr[i % arr.length]);
         }
         el.innerHTML = s;
-        offset += 5;
+        offset += 2;
     }); 
     t++;
     var c = setTimeout(display, rate);
