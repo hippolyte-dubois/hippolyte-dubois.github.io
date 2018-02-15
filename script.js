@@ -1,4 +1,4 @@
-var arr = "$$$MEME".split('');
+var arr = "$666$MEME".split('');
 var n = 100;
 var t = 0;
 var rate = 500;

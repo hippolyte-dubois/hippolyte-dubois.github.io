@@ -1,6 +1,12 @@
 html{
     font-family: 'Inconsolata', monospace;
     font-style: italic;
+    background-color: black;
+}
+
+body{
+    background-color: white;
+    padding-bottom: 2vh;
 }
 
 .bandeau{
@@ -32,11 +38,42 @@ a{
     font-style: italic;
     width: 100%;
     text-align: center;
-    font-size: 15pt;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%; 
+    font-size: 2.5vh;
+    max-width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw; 
     margin-bottom: 2vh;
+    color: black;
+}
+
+#cv>.title{
+    font-family: 'Inconsolata', monospace;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    font-size: 5vh; 
+    margin-bottom: 2vh;
+    color: black;
+}
+
+#cv {
+    text-align: left;
+    font-style: normal;
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 5vh;
+}
+
+.desc{
+    padding-left: 5px;
+    color: black;
+    font-weight: normal;
+    border-left: 1px solid black;
+    margin-left: 5px;
 }
 
 #kptn{
@@ -45,26 +82,22 @@ a{
     font-style: italic;
     width: 100%;
     text-align: center;
-    font-size: 5vw;
+    font-size: 1vw;
 }
 
 #name{
-    padding: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: solid black 5px ;
     border-top: solid black 5px ;
+    text-align: center;
+    font-size: 8vh;
+    font-weight: bold;
 }
 
-#name h2{
-    font-family: 'Inconsolata', monospace;
-    font-weight: bold;
-    font-style: italic;
-    width: 100%;
-    text-align: center;
-    font-size: 2.19vw;
-}
 
 #img-me{
     width: 20%;
